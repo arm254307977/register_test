@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: auto;
+    background-color: #FFE5EC;
+}
+
+.boxTitle {
+    text-align: center;
+    color: #f0f0f0;
+    font-weight: bolder;
+    font-size: 32px;
+    background-color: #E18AAA;
+    padding: 2rem;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.conMsg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxMsg {
+    text-align: center;
+    color: #f0f0f0;
+    font-weight: bolder;
+    font-size: 24px;
+    background-color: #836953;
+    border-radius: 10px;
+    padding: 1rem;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin: 1rem;
+}
+
+.boxLink {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem;
+    text-align: center;
+}
+
+.btnProfile {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.btnProfile:hover {
+    background-color: #2980b9;
+}
+
+.btnProfile:focus {
+    outline: none;
+}
+
+.btnProfile:active {
+    transform: translateY(2px);
+}
+
+.btnLoguot {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button {
+    text-decoration: none; 
+    color: #ffffff;
+}
+
+.logout-button {
+    text-decoration: none; 
+    color: #ffffff;
+}
+
+.btnLoguot:hover {
+    background-color: #c0392b;
+}
+
+.btnLoguot:focus {
+    outline: none;
+}
+
+.btnLoguot:active {
+    transform: translateY(2px);
+}
+
+.headTable {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #2E3136;
+    padding: 1rem 0;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #C6D9BB;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #E18AAA;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.btn-editUser {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #0F4267;
+}
+
+.btn-editUser:hover {
+    background-color: #3498db;
+}
+
+.btn-editUser:focus {
+    outline: none;
+}
+
+.btn-editUser:active {
+    transform: translateY(2px);
+}
+
+.btn-deleteUser {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #8e1212;
+}
+
+.btn-deleteUser:hover {
+    background-color: #c0392b;
+}
+
+.btn-deleteUser:focus {
+    outline: none;
+}
+
+.btn-deleteUser:active {
+    transform: translateY(2px);
+}
